@@ -2,7 +2,7 @@
 
 > **Turning coffee shop sales data into actionable business insights through SQL, Databricks, and interactive dashboards.**
 
-# 📌 Project Overview
+Project Overview
 
 The **Bright Coffee Shop Sales Analysis Dashboard** is a business intelligence project developed to analyse transactional sales data from **Bright Coffee Shop**. The project focuses on transforming raw sales data into meaningful insights that help management understand business performance, customer purchasing behaviour, product performance, and sales trends.
 
@@ -12,22 +12,7 @@ The objective of this project is to demonstrate the complete data analytics work
 
 ---
 
-# 🎯 Project Objectives
-
-The main objectives of this project were to:
-
-* Analyse overall coffee shop sales performance.
-* Monitor revenue trends over time.
-* Identify the highest-selling products.
-* Compare store performance across locations.
-* Understand customer purchasing behaviour.
-* Identify peak business hours.
-* Build an interactive dashboard for management reporting.
-* Generate recommendations to improve revenue and operational efficiency.
-
----
-
-# 📂 Dataset Overview
+Dataset Overview
 
 The analysis is based on the **Bright Coffee Shop Sales Dataset**, which contains transactional sales records collected over a six-month period.
 
@@ -45,9 +30,7 @@ The dataset includes information such as:
 
 This data provides a complete view of the coffee shop's daily sales activities and customer purchasing patterns.
 
----
-
-# 🧹 Data Cleaning
+ Data Cleaning
 
 Before beginning the analysis, the dataset was cleaned to improve data quality and ensure accurate reporting.
 
@@ -60,15 +43,9 @@ The following data quality checks were performed using SQL:
 * Verified unit prices
 * Calculated Total Amount using:
 
-```sql
-unit_price * transaction_qty
-```
-
 Additional calculated fields were also created to simplify the analysis.
 
---
-
-# 📊 Business Questions Answered
+- Business Questions Answered
 
 The project answers several important business questions.
 
@@ -80,6 +57,8 @@ The project answers several important business questions.
 * What is the total quantity sold?
 * Which month generated the highest revenue?
 * Which month generated the lowest revenue?
+
+<img width="642" height="423" alt="image" src="https://github.com/user-attachments/assets/663ca87f-ad33-4675-8538-a178c215ea66" />
 
 ---
 
@@ -107,9 +86,7 @@ The project answers several important business questions.
 * How do weekday and weekend sales compare?
 * What are the peak business hours?
 
----
-
-# 📈 Dashboard
+ Dashboard
 
 The dashboard was designed to provide management with an interactive view of business performance.
 
@@ -117,8 +94,7 @@ The dashboard was designed to provide management with an interactive view of bus
 
 
 ## Dashboard Pages
-
-### 📍 Sales Overview
+## Sales Overview
 
 KPIs
 
@@ -139,19 +115,9 @@ Charts
 
 <img width="902" height="384" alt="image" src="https://github.com/user-attachments/assets/c2c7e25f-5dfc-422a-b214-7ee56dd30cb2" />
 
-
-### ☕ Product Performance
-
-Charts
-
-* Top 10 Products
-* Quantity Sold by Product
-* Revenue by Product
-* Product Category Comparison
-
 ---
 
-### 🏪 Store Performance
+## Store Performance
 
 Charts
 
@@ -164,56 +130,11 @@ Charts
 
 ---
 
-### 👥 Customer Behaviour
+### Customer Behaviour
 
 <img width="900" height="271" alt="image" src="https://github.com/user-attachments/assets/87a01832-8c3d-4944-a93c-50e5b84bb173" />
 
-
-
-Charts
-
-* Sales by Hour
-* Peak Business Hours
-* Weekday vs Weekend Sales
-* Sales by Time Bucket
-
-Time buckets were created using SQL CASE statements to classify transactions into periods such as Morning, Afternoon, Evening, and Night.
-
----
-
-# 📊 KPI Metrics
-
-The dashboard includes:
-
-* Total Revenue
-* Total Transactions
-* Total Quantity Sold
-* Average Transaction Value
-* Average Unit Price
-* Best Selling Product
-* Top Performing Store
-* Highest Revenue Month
-
----
-
-# 📈 Visualisations Used
-
-The dashboard uses a variety of visualisations to communicate insights effectively:
-
-* KPI Cards
-* Line Charts
-* Bar Charts
-* Column Charts
-* Donut Charts
-* Pie Charts
-* Heat Maps
-* Pivot Charts (Excel)
-
-Each chart was selected to best represent the underlying business question, making the dashboard intuitive and easy to interpret.
-
----
-
-# 💡 Key Insights
+# Key Insights
 
 From the analysis, several important findings emerged:
 
@@ -224,9 +145,8 @@ From the analysis, several important findings emerged:
 * Store performance differed across locations, revealing opportunities for operational improvements.
 * Customer purchasing behaviour changed depending on the time of day.
 
----
 
-# 📌 Business Recommendations
+#  Business Recommendations
 
 Based on the findings, the following recommendations were made:
 
@@ -237,9 +157,8 @@ Based on the findings, the following recommendations were made:
 * Focus marketing efforts on high-performing stores while developing strategies to improve lower-performing locations.
 * Continue monitoring key performance indicators to support informed decision-making.
 
----
-
-# 💻 Technologies Used
+--
+# Technologies Used
 
 * **Databricks SQL** – Data cleaning, transformation, and analysis.
 * **Microsoft Excel** – Pivot Tables, Pivot Charts, KPI Cards, and Slicers.
@@ -272,24 +191,6 @@ Bright-Coffee-Shop-Sales-Analysis/
 ├── README.md
 └── LICENSE
 ```
-
----
-
-# 🚀 Skills Demonstrated
-
-This project showcases practical skills in:
-
-* SQL Query Writing
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* Data Aggregation
-* Business Intelligence
-* Dashboard Design
-* KPI Development
-* Data Visualisation
-* Business Reporting
-* Analytical Thinking
-* Problem Solving
 
   
 # 📚 What I Learned
